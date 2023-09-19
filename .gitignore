@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+config/config.json
+.idea
+config/bot.db
+src/bot.db
+config/ServerStats.json
+discord-verify.txt

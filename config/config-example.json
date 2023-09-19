@@ -1,0 +1,9 @@
+{
+    "token": "",
+    "clientId": "",
+    "email": "",
+    "username": "",
+    "password": "",
+    "smtpHost": "smtp.gmail.com",
+    "isGoogle": true
+}
