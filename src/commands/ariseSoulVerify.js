@@ -7,8 +7,7 @@ const {
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("arise_soul_verify")
-        .setDescription("Get a unique verification link")
-        .setDefaultMemberPermissions(0),
+        .setDescription("Get a unique verification link"),
 
     async execute(interaction) {
         const userId = interaction.user.id;

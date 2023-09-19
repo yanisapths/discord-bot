@@ -152,7 +152,7 @@ bot.on('interactionCreate', async interaction => {
             language = defaultLanguage
         }
         try {
-            if (interaction.member.permissions.has(PermissionsBitField.Flags.Administrator) || interaction.commandName === "delete_user_data" || interaction.commandName === "verify") {
+            if (interaction.member.permissions.has(PermissionsBitField.Flags.Administrator) || interaction.commandName === "delete_user_data" || interaction.commandName === "verify" || interaction.commandName === "arise_soul_verify") {
                 await command.execute(interaction);
             } else {
                 await interaction.reply({
