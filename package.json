@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node src/EmailBot.js"
+    "start": "nodemon src/EmailBot.js"
   },
   "author": "",
   "license": "ISC",

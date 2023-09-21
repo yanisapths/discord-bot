@@ -44,6 +44,7 @@ module.exports = {
         }
 
         const verificationLink = buildVerificationLink(
+            "https://poc-verify.vercel.app/verify",
             uniqueToken,
             queryParams
         );
